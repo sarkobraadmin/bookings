@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: application/json; charset=UTF-8');
 
-$xml_file = 'bookings.xml';
+$xml_file = 'https://github.com/sarkobraadmin/sarkobarbershop/blob/main/bookings.xml';
 
 if (file_exists($xml_file)) {
     $xml = simplexml_load_file($xml_file);
